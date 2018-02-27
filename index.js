@@ -16,3 +16,9 @@ function increaseRankBy(n){
 		rankedLi[i].innerHTML =  num + n;//(i + 1).toString();
 	}
 }
+
+function deepestChild(){
+	const arr = document.querySelector('div#grand-node');
+	const divs =arr.querySelectorAll('div');
+	console.log(divs[3].innerHTML);
+}
